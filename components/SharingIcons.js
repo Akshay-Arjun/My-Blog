@@ -1,4 +1,4 @@
-import { BASE_URL, ORG_NAME } from '../constants';
+import { BASE_URL, ORG_NAME } from '../lib/constants';
 
 export default function SharingIcons({ title, path }) {
   const url = `${BASE_URL}${path}`;
