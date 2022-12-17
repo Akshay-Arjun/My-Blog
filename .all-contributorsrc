@@ -1,0 +1,69 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "deokarniharika",
+      "name": "Niharika Deokar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95857656?v=4",
+      "profile": "https://www.linkedin.com/in/niharika-deokar-3a483b212",
+      "contributions": [
+        "ideas",
+        "design",
+        "code",
+        "projectManagement",
+        "bug"
+      ]
+    },
+    {
+      "login": "Akshay-Arjun",
+      "name": "AKSHAY ARJUN",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68991993?v=4",
+      "profile": "https://bit.ly/AKSHAYARJUN",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "an-indivisible-whole",
+      "name": "Shubham Kumar Pandey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33973866?v=4",
+      "profile": "https://www.linkedin.com/in/shubham-kumar-pandey-658a24156/",
+      "contributions": [
+        "code",
+        "ideas",
+        "bug"
+      ]
+    },
+    {
+      "login": "forAchilles",
+      "name": "forAchilles",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88034248?v=4",
+      "profile": "https://github.com/forAchilles",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "sudiptog81",
+      "name": "Sudipto Ghosh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11232940?v=4",
+      "profile": "https://ghosh.pro/links",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "TINEB-website-revamp",
+  "projectOwner": "deokarniharika",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
