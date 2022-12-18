@@ -7,10 +7,10 @@ date: '22-06-2022'
 <h1> RouterSpace Hackthebox Writeup </h1>
 
 # NMAP SCANNING
-## Basic Scan
+
 ```
 ┌──(x4k5h4yx💀Kali)-[~]
-└─$   
+└─$   nmap -sC -sV 10.10.11.148
 Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-26 01:33 EDT
 Nmap scan report for 10.10.11.148
 Host is up (0.26s latency).
@@ -77,44 +77,6 @@ PORT   STATE SERVICE VERSION
 |_    Connection: close
 |_http-title: RouterSpace
 |_http-trane-info: Problem with XML parsing of /evox/about
-2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
-==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port22-TCP:V=7.92%I=7%D=3/26%Time=623EA5AD%P=x86_64-pc-linux-gnu%r(NULL
-SF:,29,"SSH-2\.0-RouterSpace\x20Packet\x20Filtering\x20V1\r\n");
-==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=3/26%Time=623EA5AD%P=x86_64-pc-linux-gnu%r(GetR
-SF:equest,31BA,"HTTP/1\.1\x20200\x20OK\r\nX-Powered-By:\x20RouterSpace\r\n
-SF:X-Cdn:\x20RouterSpace-54386\r\nAccept-Ranges:\x20bytes\r\nCache-Control
-SF::\x20public,\x20max-age=0\r\nLast-Modified:\x20Mon,\x2022\x20Nov\x20202
-SF:1\x2011:33:57\x20GMT\r\nETag:\x20W/\"652c-17d476c9285\"\r\nContent-Type
-SF::\x20text/html;\x20charset=UTF-8\r\nContent-Length:\x2025900\r\nDate:\x
-SF:20Sat,\x2026\x20Mar\x202022\x2005:37:42\x20GMT\r\nConnection:\x20close\
-SF:r\n\r\n<!doctype\x20html>\n<html\x20class=\"no-js\"\x20lang=\"zxx\">\n<
-SF:head>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20<me
-SF:ta\x20http-equiv=\"x-ua-compatible\"\x20content=\"ie=edge\">\n\x20\x20\
-SF:x20\x20<title>RouterSpace</title>\n\x20\x20\x20\x20<meta\x20name=\"desc
-SF:ription\"\x20content=\"\">\n\x20\x20\x20\x20<meta\x20name=\"viewport\"\
-SF:x20content=\"width=device-width,\x20initial-scale=1\">\n\n\x20\x20\x20\
-SF:x20<link\x20rel=\"stylesheet\"\x20href=\"css/bootstrap\.min\.css\">\n\x
-SF:20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"css/owl\.carousel\.
-SF:min\.css\">\n\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"css/
-SF:magnific-popup\.css\">\n\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20
-SF:href=\"css/font-awesome\.min\.css\">\n\x20\x20\x20\x20<link\x20rel=\"st
-SF:ylesheet\"\x20href=\"css/themify-icons\.css\">\n\x20")%r(HTTPOptions,10
-SF:8,"HTTP/1\.1\x20200\x20OK\r\nX-Powered-By:\x20RouterSpace\r\nX-Cdn:\x20
-SF:RouterSpace-59424\r\nAllow:\x20GET,HEAD,POST\r\nContent-Type:\x20text/h
-SF:tml;\x20charset=utf-8\r\nContent-Length:\x2013\r\nETag:\x20W/\"d-bMedpZ
-SF:YGrVt1nR4x\+qdNZ2GqyRo\"\r\nDate:\x20Sat,\x2026\x20Mar\x202022\x2005:37
-SF::42\x20GMT\r\nConnection:\x20close\r\n\r\nGET,HEAD,POST")%r(RTSPRequest
-SF:,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n
-SF:")%r(X11Probe,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20
-SF:close\r\n\r\n")%r(FourOhFourRequest,12C,"HTTP/1\.1\x20200\x20OK\r\nX-Po
-SF:wered-By:\x20RouterSpace\r\nX-Cdn:\x20RouterSpace-29248\r\nContent-Type
-SF::\x20text/html;\x20charset=utf-8\r\nContent-Length:\x2070\r\nETag:\x20W
-SF:/\"46-xjHoLMGLNuwUgj\+wfGrPgEMZdoI\"\r\nDate:\x20Sat,\x2026\x20Mar\x202
-SF:022\x2005:37:44\x20GMT\r\nConnection:\x20close\r\n\r\nSuspicious\x20act
-SF:ivity\x20detected\x20!!!\x20{RequestID:\x20v\x20\x20vb\x20X6f\x20ik5f\x
-SF:20m\x20C\x20\x20D\x20}\n\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 55.19 seconds
