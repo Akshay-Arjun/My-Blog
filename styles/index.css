@@ -14,3 +14,8 @@
 span.site-title {
   font-family: 'Rock Salt', cursive !important;
 }
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+}

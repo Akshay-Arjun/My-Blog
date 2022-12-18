@@ -43,7 +43,7 @@ export default function BlogDetail({ title, coverImage, date, content }) {
             objectFit='cover' layout='responsive' objectPosition='center' />
         </div>
         <div className="w-3/4 text-justify mx-auto mb-8">
-          <div className={markdownStyles['markdown']} dangerouslySetInnerHTML={{ __html: content }}></div>
+          <div  class="prose prose-slate" className={markdownStyles['markdown']} dangerouslySetInnerHTML={{ __html: content }}></div>
         </div>
         <div className='my-5 text-center'>
           <div className='mt-4'>
