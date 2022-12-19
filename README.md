@@ -1,1 +1,1 @@
-[![wakatime](https://wakatime.com/badge/user/093f25f9-0e8a-4373-ac9d-8f3aee43eb8c/project/58aabc60-3a51-40ae-9447-3ec4ef2ab09d.svg)](https://wakatime.com/badge/user/093f25f9-0e8a-4373-ac9d-8f3aee43eb8c/project/58aabc60-3a51-40ae-9447-3ec4ef2ab09d)
+[![wakatime](https://wakatime.com/badge/github/Akshay-Arjun/My-Blog.svg)](https://wakatime.com/badge/github/Akshay-Arjun/My-Blog)
