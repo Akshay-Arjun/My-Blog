@@ -6,7 +6,7 @@ export default function BlogCard(blog) {
     <div className="mx-auto w-full min-w-sm lg:w-3/4 bg-accent-2 rounded-lg shadow mt-8 mb-8">
       <Link href={"/" + blog.slug}>
         <div className='w-full relative'>
-          <Image height={9} width={16}
+          <Image height={10} width={16}
             objectFit='cover' layout='responsive' objectPosition='center' src={blog.coverImage} alt={blog.title} placeholder="blur" blurDataURL={`/_next/image?url=${blog.coverImage}&w=16&q=1`} className='rounded-t-lg' />
         </div>
       </Link>

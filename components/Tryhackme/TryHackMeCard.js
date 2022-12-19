@@ -6,7 +6,7 @@ export default function TryHackMeCard(tryhacker) {
     <div className="mx-auto w-full min-w-sm lg:w-3/4 bg-accent-2 rounded-lg shadow mt-8 mb-8">
       <Link href={"/tryhackme/" + tryhacker.slug}>
         <div className='w-full relative'>
-          <Image height={9} width={16}
+          <Image height={10} width={16}
             objectFit='cover' layout='responsive' objectPosition='center' src={tryhacker.coverImage} alt={tryhacker.title} placeholder="blur" blurDataURL={`/_next/image?url=${tryhacker.coverImage}&w=16&q=1`} className='rounded-t-lg' />
         </div>
       </Link>
