@@ -1,0 +1,1 @@
+Default page is Hack the box writeups aka blogs.

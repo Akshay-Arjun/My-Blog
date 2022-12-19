@@ -36,6 +36,7 @@ export default function Index({ allBlogs }) {
         </Head>
         <Container>
           <div className='content-center pb-10 mb-5'>
+            
            {allBlogs[0] && <BlogsList blogs={[allBlogs[0]]} />}
            {allBlogs.length > 0 && <BlogsList blogs={allBlogs.slice(1)} />}
           </div>
