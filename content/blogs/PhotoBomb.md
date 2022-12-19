@@ -1,3 +1,10 @@
+---
+title: 'Photobomb Writeup'
+excerpt: 'Hackthebox Photobomb boot to root writeup'
+coverImage: '/assets/blogs/Photobomb.png'
+date: '19-12-2022'
+---
+<h1> Hacktheboc Photobomb Writeup </h1>
 ### Add Domain to Hosts file.
 ***
 
