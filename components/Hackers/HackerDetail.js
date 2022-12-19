@@ -38,7 +38,7 @@ export default function HackerDetail({ title, coverImage, date, content }) {
           Posted on <FormattedDate dateString={date} />
         </div>
         <div className="mb-8 sm:mx-0 w-full mx-auto relative">
-          <Image src={coverImage} alt={title} height={9} width={16}
+          <Image src={coverImage} alt={title} height={10} width={16}
             objectFit='cover' layout='responsive' objectPosition='center' />
         </div>
         <div className="w-3/4 mx-auto mb-8">
