@@ -1,14 +1,14 @@
 import Head from 'next/head';
 import React from 'react';
-import BlogsList from '../components/Blogs/BlogsList';
-import Container from '../components/Container';
-import Layout from '../components/Layout';
-import { getAllBlogs } from '../lib/api';
-import { HOME_OG_IMAGE_URL, ORG_NAME } from '../lib/constants';
+import HackersList from '../../components/Hackers/HackersList';
+import Container from '../../components/Container';
+import Layout from '../../components/Layout';
+import { getAllHackers } from '../../lib/api';
+import { HOME_OG_IMAGE_URL, ORG_NAME } from '../../lib/constants';
 
 
 export async function getStaticProps() {
-  const allBlogs = getAllBlogs([
+  const allHackers = getAllHackers([
     'title',
     'date',
     'slug',
@@ -17,17 +17,17 @@ export async function getStaticProps() {
   ]);
 
   return {
-    props: { allBlogs },
+    props: { allHackers },
   };
 }
 
-export default function Index({ allBlogs }) {
+export default function Index({ allHackers }) {
 
   return (
     <>
       <Layout>
         <Head>
-          <title>Blogs | {ORG_NAME}</title>
+          <title>Hacker One  | {ORG_NAME}</title>
           <meta
             name="description"
             content={`${ORG_NAME}`}
@@ -37,10 +37,10 @@ export default function Index({ allBlogs }) {
         <Container>
           <div className='content-center pb-10 mb-5'>
           <h1 className="mt-5 mb-7 text-3xl text-accent-3 text-center font-bold">
-              Hackthebox Writeups
+              Hacker One Reports
             </h1>
-           {allBlogs[0] && <BlogsList blogs={[allBlogs[0]]} />}
-           {allBlogs.length > 0 && <BlogsList blogs={allBlogs.slice(1)} />}
+           {allHackers[0] && <HackersList hackers={[allHackers[0]]} />}
+           {allHackers.length > 0 && <HackersList hackers={allHackers.slice(1)} />}
           </div>
         </Container>
       </Layout>
