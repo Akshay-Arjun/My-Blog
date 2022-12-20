@@ -22,8 +22,8 @@ export default function Index() {
           <h1 className="mt-5 mb-7 text-3xl text-accent-3 text-center font-bold">
           About Me
             </h1>
-            
-            <div style={{ alignContent:'space-evenly' }}>
+            // The below code copy pasted from my peronal website. So Tailwind is not used.
+            <div style={{ alignContent:'space-evenly' ,paddingLeft:"20px"}}>
   <h2 style={{ textAlign: "center" }}>
     Hi there{" "}
     <span role="img" aria-label="Waving hand">
