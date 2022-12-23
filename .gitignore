@@ -35,7 +35,4 @@ yarn-error.log*
 
 .svn
 
-sitemap*.xml
-robots.txt
-!old.sitemap.xml
 .vscode
