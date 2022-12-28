@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
-import TryHackMeList from '../../components/Tryhackme/TryHackMeList';
+import HackingList from '../../components/Hacking/HackingList';
 import Container from '../../components/Container';
 import Layout from '../../components/Layout';
 import { getAllTryHackers } from '../../lib/api';
@@ -27,7 +27,7 @@ export default function Index({ allTryHackers }) {
     <>
       <Layout>
         <Head>
-          <title>Try Hack Me  | {ORG_NAME}</title>
+          <title>Hacking Tutorials | {ORG_NAME}</title>
           <meta
             name="description"
             content={`${ORG_NAME}`}
@@ -37,10 +37,10 @@ export default function Index({ allTryHackers }) {
         <Container>
           <div className='content-center pb-10 mb-5'>
           <h1 className="mt-5 mb-7 text-3xl text-accent-3 text-center font-bold">
-          Try Hack Me Writeups
+          Hacking Tutorials and Tips
             </h1>
-           {allTryHackers[0] && <TryHackMeList tryhackers={[allTryHackers[0]]} />}
-           {allTryHackers.length > 0 && <TryHackMeList tryhackers={allTryHackers.slice(1)} />}
+           {allTryHackers[0] && <HackingList tryhackers={[allTryHackers[0]]} />}
+           {allTryHackers.length > 0 && <HackingList tryhackers={allTryHackers.slice(1)} />}
           </div>
         </Container>
       </Layout>
