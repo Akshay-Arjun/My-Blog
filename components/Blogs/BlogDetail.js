@@ -14,7 +14,7 @@ export default function BlogDetail({ title, coverImage, date, content }) {
         <div className='my-5 mt-6 w-11/12 mx-auto flex flex-row justify-between'>
           <div>
             <i className='bi bi-arrow-left mr-2'></i>
-            <Link href='/hackthebox'>Go Back</Link>
+            <Link href='/'>Go Back</Link>
           </div>
           <div>
             Share
