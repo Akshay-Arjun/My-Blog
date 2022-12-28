@@ -1,6 +1,6 @@
 import CertificateCard from "./CertificateCard";
 
-export default function TryHackMeList({ certificates: certificates }) {
+export default function HackingList({ certificates: certificates }) {
   return (
     <section className="mx-9">
       {certificates && certificates.map((certificate) => (

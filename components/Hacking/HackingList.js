@@ -1,10 +1,10 @@
-import TryHackMeCard from "./TryHackMeCard";
+import HackingCard from "./HackingCard";
 
-export default function TryHackMeList({ tryhackers: tryhackers }) {
+export default function HackingList({ tryhackers: tryhackers }) {
   return (
     <section className="mx-9">
       {tryhackers && tryhackers.map((tryhacker) => (
-        <TryHackMeCard
+        <HackingCard
           key={tryhacker.slug}
           title={tryhacker.title}
           slug={tryhacker.slug}

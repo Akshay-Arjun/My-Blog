@@ -6,7 +6,7 @@ import { getTryHackerBySlug, getAllTryHackers } from '../../lib/api';
 import Head from 'next/head';
 import { BASE_URL, ORG_NAME } from '../../lib/constants';
 import Loader from '../../components/Loader';
-import TryHackMeDetail from '../../components/Tryhackme/TryHackMeDetail';
+import HackingDetail from '../../components/Hacking/HackingDetail';
 import markdownToHtml from '../../lib/markdownToHtml';
 
 export default function TryHacker({ tryhacker, moretryhackers, preview }) {
@@ -38,7 +38,7 @@ export default function TryHacker({ tryhacker, moretryhackers, preview }) {
               <meta property="twitter:image:alt" content={tryhacker.title} />
             </Head>
             <article className="mb-32">
-              <TryHackMeDetail
+              <HackingDetail
                 slug={tryhacker.slug}
                 title={tryhacker.title}
                 coverImage={tryhacker.coverImage}
