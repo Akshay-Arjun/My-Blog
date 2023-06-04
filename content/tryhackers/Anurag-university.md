@@ -1,7 +1,7 @@
 ---
 title: 'I Found Unauthorized Promotion and Improper Redirection'
 excerpt: 'Identification of Misleading Unauthorized Promotion and Improper Redirection on [https://anurag.edu.in/]'
-coverImage: '/assets/blogs/Pandora.png'
+coverImage: '/assets/blogs/1659353134586.png'
 date: '04-06-2023'
 ---
 Greetings, dear readers! I hope you're doing well. Today, I want to address a couple of troubling issues I recently encountered while browsing the official website of Anurag College. These issues have not only raised concerns about the website's credibility but also put its users at potential risk.
