@@ -1,6 +1,6 @@
 ---
 title: 'I Found Unauthorized Promotion and Improper Redirection'
-excerpt: 'Hackthebox pandora boot to root'
+excerpt: 'Identification of Misleading Unauthorized Promotion and Improper Redirection on [https://anurag.edu.in/]'
 coverImage: '/assets/blogs/Pandora.png'
 date: '04-06-2023'
 ---
