@@ -1,7 +1,7 @@
 ---
 title: 'I Found Unauthorized Promotion and Improper Redirection'
 excerpt: 'Identification of Misleading Unauthorized Promotion and Improper Redirection on [https://anurag.edu.in/]'
-coverImage: '/assets/blogs/1659353134586.png'
+coverImage: '/assets/blogs/anurag-university-casino.png'
 date: '04-06-2023'
 ---
 Greetings, dear readers! I hope you're doing well. Today, I want to address a couple of troubling issues I recently encountered while browsing the official website of Anurag College. These issues have not only raised concerns about the website's credibility but also put its users at potential risk.
@@ -11,6 +11,9 @@ Imagine my surprise when I discovered that the search feature on the Anurag Coll
 
 ## Improper Redirection to External Casino Website
 To add to my concerns, I found that there's a direct link, anurag.edu.in/casino, which also redirects to the same external casino website, 7criccasinobonus.com. This improper redirection creates a negative perception and raises doubts about the appropriateness of Anurag College's online presence. It's important to note that I have reached out to Anurag College regarding these issues but have not received any response.
+
+## Proof of concept
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MqRggV3LzcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Implications and Risks
 The impact of these issues is significant and goes beyond mere inconvenience. Firstly, the presence of misleading promotions not only compromises the integrity of the website but also exposes users to potential risks. Users who unknowingly click on these external casino websites may be subjected to unwanted solicitations, scams, or inappropriate content. Such incidents erode the trust users have in the college's online platform.
