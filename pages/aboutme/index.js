@@ -4,115 +4,125 @@ import { HOME_OG_IMAGE_URL, ORG_NAME } from '../../lib/constants';
 import Layout from '../../components/Layout';
 import Container from '../../components/Container';
 import "bootstrap-icons/font/bootstrap-icons.css";
-export default function Index() {
 
+export default function AboutMe() {
   return (
-    <>
-      <Layout>
-        <Head>
-          <title>About Me  | {ORG_NAME}</title>
-          <meta
-            name="description"
-            content={`${ORG_NAME}`}
-          />
-          <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-        </Head>
-        <Container>
-          <div className='content-center pb-10 mb-5'>
-          <h1 className="mt-5 mb-7 text-3xl text-accent-3 text-center font-bold">
-          About Me
-            </h1>
-          {/* The below code copy pasted from my peronal website. */}            <div style={{ alignContent:'space-evenly' ,paddingLeft:"20px"}}>
-  <h2 style={{ textAlign: "center" }}>
-    Hi there{" "}
-    <span role="img" aria-label="Waving hand">
-      👋
-    </span>
-    , I'm 4k5h4y 4rjun 
-    
-  </h2>
-  <h3 style={{ textAlign: "center" }}>
-    Doing my B.Tech in Computer Science (Cybersecurity) at SR University,
-    India
-  </h3>
-  <br />
-  <ul style={{textAlign: 'left',alignContent:'space-evenly',paddingRight: '20px'}}>
-    
-    <li>
-      
-      🔭 I’m currently working on{" "}
-      <a
-        href="https://thereisnoearthb.org"
-        style={{ color: "#1DA1F2" }}
-      >
-        There is no earth b website
-      </a>{" "}
-      ,{" "}<a href="https://akshay-blog.vercel.app" style={{ color: "#1DA1F2" }}>
-        My personal blog 
-      </a>{" "}
-      and{" "}
-      <a href="https://akshay-arjun.vercel.app" style={{ color: "#1DA1F2" }}>
-        My personal website
-      </a>
-      .
-    </li>
-    <li>🌱 I’m currently learning Web development and Ethical Hacking.</li>
-    <li>💬 Talk to me about Cybersecurity,  <a href="https://voiceformenindia.com/" style={{ color: "#1DA1F2" }}>
-    Gender biased laws.
-      </a> </li>
-    <li>
-      🎮 Games I play Valorant,{" "}
-      <a
-        href="https://app.hackthebox.com/profile/425207"
-        style={{ color: "#1DA1F2" }}
-      >
-        Capture the flag
-      </a>
-      .
-    </li>
-    <li>
-      📫 How to reach me :{" "}
-      <a href="https://akshay-arjun.vercel.app/Contact" style={{ color: "#1DA1F2" }}>
-        Contact Form.
-      </a>
-    </li>
-    <li>
-      ⚡ Unfunny fact: India doesn't have Men rights & Gender neutral laws.
-    </li>
-    <li>
-      📖 I read a lot of Blogs on Hacking & Hindu <del>mythology</del> history.
-    </li>
-    <li>
-      🐍 Favourite programming language is{" "}
-      <a
-        href="https://imgs.xkcd.com/comics/python.png"
-        style={{ color: "#1DA1F2" }}
-      >
-        Python
-      </a>
-      .
-    </li>
-  </ul>
+    <Layout>
+      <Head>
+        <title>About Me | {ORG_NAME}</title>
+        <meta
+          name="description"
+          content="Resume of Akshay Vollala – Aspiring Cybersecurity Professional with solid academic credentials and practical experience."
+        />
+        <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      </Head>
+      <Container>
+        <div style={{ maxWidth: '800px', margin: '0 auto', padding: '20px' }}>
+          {/* Header Section */}
+          <header style={{ textAlign: 'center', marginBottom: '40px' }}>
+            <h1>Akshay Vollala</h1>
+            <p style={{ fontSize: '1.2rem', fontStyle: 'italic' }}>
+              Aspiring Cybersecurity Professional
+            </p>
+            <p>
+              <strong>Email:</strong> <a href="mailto:akshayvollala779@gmail.com">akshayvollala779@gmail.com</a> | <strong>Phone:</strong> +91 9491466120
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/in/akshayvollala/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |{' '}
+              <a href="https://github.com/Akshay-Arjun" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </p>
+          </header>
 
-  <br />
-  <h3 style={{ textAlign: "left" }}>Connect with me:</h3>
-  <ul>
-    
-    <li>
-      <a href="https://twitter.com/x4k5h4yx"  style={{color: '#1DA1F2',paddingBottom:"200px"}} target="blank"><img style={{ textAlign: "center" }} src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="x4k5h4yx" /></a> 
+          {/* Technical Skills */}
+          <section style={{ marginBottom: '30px' }}>
+            <h2>Technical Skills</h2>
+            <ul>
+              <li><strong>Security Tools:</strong> Wireshark, Burp Suite, Nmap, Metasploit, OWASP ZAP</li>
+              <li><strong>Security Knowledge:</strong> OWASP Top 10, Web Pentesting, Vulnerability Assessment, Network Security, Security Auditing</li>
+              <li><strong>Programming:</strong> Python, C, Bash Scripting</li>
+              <li><strong>Web Technologies:</strong> HTML5, CSS, Web Application Security</li>
+              <li><strong>Systems & Tools:</strong> Linux, Git, VS Code, Docker</li>
+              <li><strong>Databases:</strong> MySQL, MongoDB</li>
+            </ul>
+          </section>
 
-      <a href="https://instagram.com/_thearjun_"  style={{color: '#1DA1F2'}} target="blank"><img style={{ textAlign: "center" }} src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="_thearjun_"/></a> 
-      <a href="https://www.linkedin.com/in/akshayvollala/"  style={{color: '#1DA1F2'}} target="blank"><img style={{ textAlign: "center" }} src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="_thearjun_"  /></a> 
-      
-      <a href="https://github.com/Akshay-Arjun"  style={{color: '#1DA1F2', height:"30" ,width:"40"}} target="blank"><img style={{ textAlign: "center" }} src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="_thearjun_"  /></a>  
-      </li>
-  </ul>
-  <h3 style={{ textAlign: "left" }}>Download Resume : </h3>
-  <a href="https://github.com/Akshay-Arjun/Akshay-Arjun/raw/main/Akshay%20%20Vollala's%20Resume.pdf"  style={{color: '#1DA1F2', height:"30" ,width:"40"}} target="blank"><img style={{ textAlign: "center" }} src="https://img.shields.io/badge/Resume-100000?style=for-the-badge&logo=readme&logoColor=white" alt="_thearjun_"  /></a>  
-    </div>
-          </div>
-        </Container>
-      </Layout>
-    </>
+          {/* Certifications & Training */}
+          <section style={{ marginBottom: '30px' }}>
+            <h2>Certifications &amp; Training</h2>
+            <ul>
+              <li>Google Professional Cybersecurity Certificate – Comprehensive security fundamentals, incident response, and security operations</li>
+              <li>Ethical Hacking Essentials (EHE) – EC-Council certified training in penetration testing and ethical hacking</li>
+              <li>Introduction to Software Testing – University of Minnesota</li>
+              <li>Python for Data Science – IIT Madras</li>
+            </ul>
+          </section>
+
+          {/* Experience */}
+          <section style={{ marginBottom: '30px' }}>
+            <h2>Experience</h2>
+            <div style={{ marginBottom: '20px' }}>
+              <h3>Smalltalk Technologies <span style={{ fontWeight: 'normal' }}>(January 2024 – June 2024)</span></h3>
+              <p><strong>Cybersecurity Intern</strong></p>
+              <ul>
+                <li>Implemented data reporting through dashboards to visualize vulnerability trends, facilitating clear communication and remediation prioritization.</li>
+                <li>Discovered and reported SQL Injection vulnerabilities in educational websites with detailed analysis and remediation steps.</li>
+                <li>Identified critical IDOR vulnerabilities and DDoS attack vectors, delivering comprehensive risk assessment reports with an 80% remediation rate.</li>
+                <li>Detected payment system vulnerabilities, preventing unauthorized transactions worth over INR 5,00,000/month.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>There is no earth b <span style={{ fontWeight: 'normal' }}>(April 2021 – October 2022)</span></h3>
+              <p><strong>Tech Volunteer (Remote)</strong></p>
+              <ul>
+                <li>Developed the initial phase of the website with robust security measures, improving user accessibility by 40%.</li>
+                <li>Planned and implemented scalable technology infrastructure.</li>
+                <li>Maintained and updated web applications with cutting-edge security measures, reducing page load times by 30%.</li>
+                <li>Collaborated in daily standups and team meetings to ensure adherence to project timelines.</li>
+              </ul>
+            </div>
+          </section>
+
+          {/* Security Projects */}
+          <section style={{ marginBottom: '30px' }}>
+            <h2>Security Projects</h2>
+            <div style={{ marginBottom: '20px' }}>
+              <h3>Cybersecurity Network | Security Community Platform</h3>
+              <ul>
+                <li>Created a cybersecurity hub using ReactJS, ViteJS, and Supabase.</li>
+                <li>Integrated features like podcasts, anonymous Q&amp;A discussions, and a resource library for professionals.</li>
+              </ul>
+            </div>
+            <div style={{ marginBottom: '20px' }}>
+              <h3>Video Steganography Tool | Data Security Project</h3>
+              <ul>
+                <li>Developed an advanced steganography tool utilizing AES-256 and RSA encryption for secure data hiding in video frames.</li>
+                <li>Implemented military-grade encryption standards and secure key management practices.</li>
+                <li>Awarded first place in SRU Hackathon 2022 for an innovative approach to data security.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Web Enumeration Tool | Security Testing Tool</h3>
+              <ul>
+                <li>Built a tool to discover hidden endpoints and potential security vulnerabilities in web applications.</li>
+              </ul>
+            </div>
+          </section>
+
+          {/* Education */}
+          <section style={{ marginBottom: '30px' }}>
+            <h2>Education</h2>
+            <h3>SR University, Hanamkonda <span style={{ fontWeight: 'normal' }}>(2020 – 2024)</span></h3>
+            <p>
+              <strong>Bachelor of Technology in Computer Science and Engineering with Cybersecurity Specialization</strong>
+            </p>
+            <ul>
+              <li>Focused on cybersecurity courses and independent research integrating data analysis and visualization techniques.</li>
+              <li>Led the university cybersecurity club and organized security workshops.</li>
+              <li>Winner of the SR University Hackathon in the Cybersecurity domain.</li>
+            </ul>
+          </section>
+        </div>
+      </Container>
+    </Layout>
   );
 }
